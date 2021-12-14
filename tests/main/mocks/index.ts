@@ -8,8 +8,8 @@ export const mockAccessToken = async (accountCollection: Collection, role?: stri
     ...mockAddAccountParams(),
     role
   })
-  const id = res.ops[0]._id
-  const accessToken = sign({ id }, env.jwtSecret)
+  const id = res.insertedId
+  const accessToken = sign({ id: id.toHexString() }, env.jwtSecret)
   await accountCollection.updateOne({
     _id: id
   }, {
