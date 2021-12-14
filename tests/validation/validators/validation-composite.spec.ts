@@ -1,5 +1,5 @@
 import { Validation } from '@/presentation/protocols'
-import { ValidationSpy } from '@/tests/validation/mocks'
+import { ValidationSpy } from '@/tests/presentation/mocks'
 import { ValidationComposite } from '@/validation/validators'
 
 type SutTypes = {

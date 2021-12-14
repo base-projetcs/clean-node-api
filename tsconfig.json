@@ -5,13 +5,13 @@
     "outDir": "dist",
     "esModuleInterop": true,
     "sourceMap": true,                        
-    "rootDirs": ["src", "tests"],
-    "baseUrl": "src",
+    "rootDirs": ["./src", "./tests"],
+    "baseUrl": "./src",
     "paths": { 
       "@/tests/*": ["../tests/*"],
       "@/*": ["*"] 
     }
   },
-  "include": ["src", "tests"],
+  "include": ["./src", "./tests"],
   "exclude": []
 }

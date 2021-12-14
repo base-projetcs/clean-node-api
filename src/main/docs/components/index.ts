@@ -4,7 +4,6 @@ import { unauthorized } from './unauthorized'
 import { notFound } from './not-found'
 import { forbidden } from './forbidden'
 import { apiKeyAuth } from '../schemas/api-key-auth'
-
 export default {
   securitySchemes: {
     apiKeyAuth

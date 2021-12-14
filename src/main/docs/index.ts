@@ -2,7 +2,6 @@ import paths from './paths'
 import components from './components'
 import schemas from './schemas'
 import tags from './tags'
-
 export default {
   openapi: '3.0.0',
   info: {

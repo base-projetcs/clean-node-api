@@ -1,6 +1,5 @@
-import { Encrypter, HashComparer, LoadAccountByEmailRepository, UpdateAccessTokenRepository } from '@/data/protocols';
-import { AuthenticationModel } from '@/domain/models/authentication';
-import { Authentication } from '@/domain/usecases';
+import { Encrypter, HashComparer, LoadAccountByEmailRepository, UpdateAccessTokenRepository } from '@/data/protocols'
+import { Authentication } from '@/domain/usecases'
 
 export class DbAuthentication implements Authentication {
   constructor (
